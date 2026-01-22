@@ -1,0 +1,17 @@
+{
+  "name": "eb-contacts-api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@aws-sdk/client-dynamodb": "^3.540.0",
+    "@aws-sdk/lib-dynamodb": "^3.540.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
